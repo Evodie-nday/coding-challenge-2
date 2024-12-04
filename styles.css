@@ -24,7 +24,8 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  position: relative; 
+  justify-content: center;
   right: 45%;
   bottom: 17px;
   margin: 10px;
@@ -53,20 +54,25 @@ h6{
 }
 .main-section{
   background-color:aqua;
-  width:100%
+  
 
 
 }
 div{
   display: flex;
   flex-direction: row;
-  align-items: center;
+   justify-content: center; 
+  align-items: center; 
   margin: 20px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap; 
   background-color: black;
+  padding: 20px 10px;
   width: 60px;
-  height: 60px;
-}
+  height: 10px;
+  /* max-width: 1400px; */
+  margin: 
+  /* gap: 16px; */
+  wid
 
 
 
