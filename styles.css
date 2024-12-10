@@ -1,11 +1,85 @@
-body{
-  /* background-color: aqua; */
-  background-color:white;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-
+body{
+  /* background-color: bisque; */
+}
   
-  
-
+  header{
+    /* background-color: black; */
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    font-size: 15px;
+  }
+  .navbar{
+    width: 25%;
+    background-color: rgb(255 255 255);
+  }
+  .navbar img{
+    width: 500%;
+    border-radius: 30px;
+  }
+  .psn{
+    margin-left: 35px;
+  }
+.psn p{
+  display: flex;
+  margin-bottom: 10px;
+}
+.icons li{
+  margin-right: 10px;
+}
+i{
+  color: rgb(2 2 2);
+}
+.icons i{
+  margin-right: 10px;
+}
+.dtn{
+width: 20%;
+padding: 20px;
+}
+.dtn a{
+  margin-right: 10px;
+}
+.dtn li{
+  margin-bottom: 25px;
+}
+.all{
+  display: flex;
+}
+.main-section{
+  padding: 10px;
+  width: 100%;
+}
+.fr{
+  display: flex;
+  justify-content: space-between;
+}
+.fr img{
+  width: 70%
+}
+.mr{
+  display: block;
+}
+table{
+  width: 100%;
+  display: block;
+}
+td a{
+  max-width: 10%;
+}
+td{
+  padding: 5px;
+  width: 80%;
+  background-color: rgb(250 250 250);
+}
+.table2{
+width: 100%;
+border: 2px solid red;
+}
